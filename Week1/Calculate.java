@@ -1,11 +1,11 @@
 import javax.swing.JOptionPane;
 public class Calculate {
     public static void main(String[] args) {
-        String Strnum1, Strnum2; 
-        Strnum1 = JOptionPane.showInputDialog(null, "Please Input first num", "Enter first num", JOptionPane.INFORMATION_MESSAGE);
-        double num1 = Double.parseDouble(Strnum1); 
-        Strnum2 = JOptionPane.showInputDialog(null, "Please Input second number", "Second number", JOptionPane.INFORMATION_MESSAGE);
-        double num2 = Double.parseDouble(Strnum2); 
+        String Str1, Str2; 
+        Str1 = JOptionPane.showInputDialog(null, "Please Input first num", "Enter first num", JOptionPane.INFORMATION_MESSAGE);
+        double num1 = Double.parseDouble(Str1); 
+        Str2 = JOptionPane.showInputDialog(null, "Please Input second number", "Second number", JOptionPane.INFORMATION_MESSAGE);
+        double num2 = Double.parseDouble(Str2); 
 
         String res = "Sum: "; 
         
