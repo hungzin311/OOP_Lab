@@ -1,8 +1,9 @@
 import javax.swing.JOptionPane;
 public class Equation{
+    // first order equation with one variable
     public static void firstoder_onevar() {
 
-        // first order equation with one variable
+        
         String Strnum1, Strnum2; 
         Strnum1 = JOptionPane.showInputDialog(null, "Please Input first num", "First order equation with one variable", JOptionPane.INFORMATION_MESSAGE);
         double num1 = Double.parseDouble(Strnum1); 
@@ -17,9 +18,10 @@ public class Equation{
             JOptionPane.showMessageDialog(null, res, "Root of first order equation", JOptionPane.INFORMATION_MESSAGE);
         }
     }
-    public static void firstoder_twovars(){
-        // System of first order equation with 2 variables
+    // System of first order equation with 2 variables
 
+    public static void firstoder_twovars(){
+        
         double a11, a12, a21, a22, b1, b2;
     
         a11 = Double.parseDouble((String) JOptionPane.showInputDialog(null, "Input coefficient a11:", "System of first-order equations with two variables", JOptionPane.INFORMATION_MESSAGE));
@@ -44,8 +46,9 @@ public class Equation{
             JOptionPane.showMessageDialog(null, "Solution: x1 = " + x1 + ", x2 = " + x2, "Solution of system of equations", JOptionPane.INFORMATION_MESSAGE);
         }
     }   
+    // second order equation with 1 variable 
     public static void secondorder_onevar(){
-        // second order equation with 1 variable 
+        
         String stra, strb, strc; 
         stra = JOptionPane.showInputDialog(null, "Please Input a", "Second order equation with one variable", JOptionPane.INFORMATION_MESSAGE);
         double a = Double.parseDouble(stra);
