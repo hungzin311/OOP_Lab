@@ -30,5 +30,6 @@ public class MonthDay {
         if(month == 2 && ok == 0){
             System.out.println("There is 28 days");
         }
+        input.close();
     }
 }
