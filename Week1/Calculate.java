@@ -16,6 +16,7 @@ public class Calculate {
         else{
             res += (num1/num2);
         }
-        JOptionPane.showMessageDialog(null, res, "Show", JOptionPane.INFORMATION_MESSAGE);        
+        JOptionPane.showMessageDialog(null, res, "Show", JOptionPane.INFORMATION_MESSAGE); 
+        System.exit(0);        
     }
 }
