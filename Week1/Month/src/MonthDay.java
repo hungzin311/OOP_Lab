@@ -1,4 +1,3 @@
-package Month.src;
 import java.util.Scanner;
 public class MonthDay {
     public static void main(String[] args) {
