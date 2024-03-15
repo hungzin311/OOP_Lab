@@ -11,6 +11,6 @@ public class Star {
             System.out.println(empty + star + empty);
             star += "**";
         }
-        
+        keyboard.close();     
     }
 }
